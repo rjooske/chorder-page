@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "lib": ["DOM", "ESNext"],
+    "noEmit": true,
+    "strict": true,
+    "target": "ES5"
+  }
+}

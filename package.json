@@ -1,0 +1,14 @@
+{
+  "name": "chorder-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild ./src --bundle --minify --sourcemap=inline --outfile=page/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.39"
+  }
+}

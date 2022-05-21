@@ -1,0 +1,2 @@
+(()=>{window.addEventListener("mousedown",function(e){console.log(e.clientX)});})();
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vc3JjL2luZGV4LnRzIl0sCiAgInNvdXJjZXNDb250ZW50IjogWyJ3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcihcIm1vdXNlZG93blwiLCAoZXZlbnQpID0+IHtcbiAgY29uc29sZS5sb2coZXZlbnQuY2xpZW50WCk7XG59KTtcbiJdLAogICJtYXBwaW5ncyI6ICJNQUFBLE9BQU8saUJBQWlCLFlBQWEsU0FBQyxFQUFVLENBQzlDLFFBQVEsSUFBSSxFQUFNLE9BQU8sQ0FDM0IsQ0FBQyIsCiAgIm5hbWVzIjogW10KfQo=
