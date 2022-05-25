@@ -26,7 +26,11 @@ export type Key =
   | "Y"
   | "Z";
 
-function convertCharToKey(char: string) {
+export function convertCharToKey(char: string) {
+  if (char.length !== 1) {
+    return;
+  }
+
   if (char.match(/[A-Za-z]/)) {
     return char.toUpperCase() as Key;
   }

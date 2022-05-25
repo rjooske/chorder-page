@@ -5,8 +5,8 @@ import { convertStringToKey } from "./Key";
 const romanToHiragana = `
   _a a _i i _u u _e e _o o
   ka ga ki gi ku gu ke ge ko go
-  sa za si ji su zu se ze so zo
-  ta da ti di _tsu tsu du te de to do
+  sa za shi ji su zu se ze so zo
+  ta da chi di _tsu tsu du te de to do
   na ni nu ne no
   ha ba pa hi bi pi hu bu pu he be pe ho bo po
   ma mi mu me mo
@@ -31,7 +31,7 @@ const romanToHiragana = `
   .flatMap((chords, i) =>
     chords.map((chord) => ({
       chord,
-      replacement: String.fromCodePoint(i + 0x3042),
+      replacement: String.fromCodePoint(i + 0x3041),
     }))
   );
 
