@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild ./src --bundle --minify --sourcemap=inline --outfile=page/index.js"
+    "build": "esbuild ./src --bundle --minify --sourcemap=inline --target=es6 --outfile=page/index.js"
   },
   "author": "",
   "license": "ISC",
