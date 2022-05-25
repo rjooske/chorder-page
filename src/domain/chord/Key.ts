@@ -25,3 +25,23 @@ export type Key =
   | "X"
   | "Y"
   | "Z";
+
+function convertCharToKey(char: string) {
+  if (char.match(/[A-Za-z]/)) {
+    return char.toUpperCase() as Key;
+  }
+}
+
+export function convertStringToKey(string: string) {
+  const keys: Key[] = [];
+
+  for (const char of string) {
+    const key = convertCharToKey(char);
+    if (!key) {
+      return;
+    }
+    keys.push(key);
+  }
+
+  return keys;
+}
