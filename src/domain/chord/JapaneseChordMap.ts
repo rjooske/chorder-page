@@ -3,7 +3,7 @@ import { ChordMap } from "./ChordMap";
 import conversions from "./JapaneseChordMap.json";
 import { convertStringToKeys, Key } from "./Key";
 
-const romajiToHiragana = conversions.flatMap(({ romajis, hiragana }) =>
+const mappings = conversions.flatMap(({ romajis, hiragana }) =>
   romajis
     .map((e) => convertStringToKeys(e))
     .filter((e): e is Key[] => !!e)
@@ -12,12 +12,11 @@ const romajiToHiragana = conversions.flatMap(({ romajis, hiragana }) =>
 
 export class JapaneseChordMap implements ChordMap {
   map(chord: Chord) {
-    for (const entry of romajiToHiragana) {
-      if (entry.chord.equals(chord)) {
-        return entry.replacement;
-      }
+    const mapping = mappings.find((e) => e.chord.equals(chord));
+    if (!mapping) {
+      return "";
     }
 
-    return "";
+    return mapping.replacement;
   }
 }
