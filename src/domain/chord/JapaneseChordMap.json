@@ -1,0 +1,481 @@
+[
+  {
+    "romajis": ["a"],
+    "hiragana": "あ"
+  },
+  {
+    "romajis": ["i"],
+    "hiragana": "い"
+  },
+  {
+    "romajis": ["u"],
+    "hiragana": "う"
+  },
+  {
+    "romajis": ["e"],
+    "hiragana": "え"
+  },
+  {
+    "romajis": ["o"],
+    "hiragana": "お"
+  },
+
+  {
+    "romajis": ["ka"],
+    "hiragana": "か"
+  },
+  {
+    "romajis": ["ki"],
+    "hiragana": "き"
+  },
+  {
+    "romajis": ["ku"],
+    "hiragana": "く"
+  },
+  {
+    "romajis": ["ke"],
+    "hiragana": "け"
+  },
+  {
+    "romajis": ["ko"],
+    "hiragana": "こ"
+  },
+
+  {
+    "romajis": ["sa"],
+    "hiragana": "さ"
+  },
+  {
+    "romajis": ["si", "shi"],
+    "hiragana": "し"
+  },
+  {
+    "romajis": ["su"],
+    "hiragana": "す"
+  },
+  {
+    "romajis": ["se"],
+    "hiragana": "せ"
+  },
+  {
+    "romajis": ["so"],
+    "hiragana": "そ"
+  },
+
+  {
+    "romajis": ["ta"],
+    "hiragana": "た"
+  },
+  {
+    "romajis": ["ti", "chi"],
+    "hiragana": "ち"
+  },
+  {
+    "romajis": ["tu", "tsu"],
+    "hiragana": "つ"
+  },
+  {
+    "romajis": ["te"],
+    "hiragana": "て"
+  },
+  {
+    "romajis": ["to"],
+    "hiragana": "と"
+  },
+
+  {
+    "romajis": ["na"],
+    "hiragana": "な"
+  },
+  {
+    "romajis": ["ni"],
+    "hiragana": "に"
+  },
+  {
+    "romajis": ["nu"],
+    "hiragana": "ぬ"
+  },
+  {
+    "romajis": ["ne"],
+    "hiragana": "ね"
+  },
+  {
+    "romajis": ["no"],
+    "hiragana": "の"
+  },
+
+  {
+    "romajis": ["ha"],
+    "hiragana": "は"
+  },
+  {
+    "romajis": ["hi"],
+    "hiragana": "ひ"
+  },
+  {
+    "romajis": ["hu", "fu"],
+    "hiragana": "ふ"
+  },
+  {
+    "romajis": ["he"],
+    "hiragana": "へ"
+  },
+  {
+    "romajis": ["ho"],
+    "hiragana": "ほ"
+  },
+
+  {
+    "romajis": ["ma"],
+    "hiragana": "ま"
+  },
+  {
+    "romajis": ["mi"],
+    "hiragana": "み"
+  },
+  {
+    "romajis": ["mu"],
+    "hiragana": "む"
+  },
+  {
+    "romajis": ["me"],
+    "hiragana": "め"
+  },
+  {
+    "romajis": ["mo"],
+    "hiragana": "も"
+  },
+
+  {
+    "romajis": ["ya"],
+    "hiragana": "や"
+  },
+  {
+    "romajis": ["yu"],
+    "hiragana": "ゆ"
+  },
+  {
+    "romajis": ["yo"],
+    "hiragana": "よ"
+  },
+
+  {
+    "romajis": ["ra"],
+    "hiragana": "ら"
+  },
+  {
+    "romajis": ["ri"],
+    "hiragana": "り"
+  },
+  {
+    "romajis": ["ru"],
+    "hiragana": "る"
+  },
+  {
+    "romajis": ["re"],
+    "hiragana": "れ"
+  },
+  {
+    "romajis": ["ro"],
+    "hiragana": "ろ"
+  },
+
+  {
+    "romajis": ["wa"],
+    "hiragana": "わ"
+  },
+  {
+    "romajis": ["wo"],
+    "hiragana": "を"
+  },
+  {
+    "romajis": ["n"],
+    "hiragana": "ん"
+  },
+
+  {
+    "romajis": ["ga"],
+    "hiragana": "が"
+  },
+  {
+    "romajis": ["gi"],
+    "hiragana": "ぎ"
+  },
+  {
+    "romajis": ["gu"],
+    "hiragana": "ぐ"
+  },
+  {
+    "romajis": ["ge"],
+    "hiragana": "げ"
+  },
+  {
+    "romajis": ["go"],
+    "hiragana": "ご"
+  },
+
+  {
+    "romajis": ["za"],
+    "hiragana": "ざ"
+  },
+  {
+    "romajis": ["zi", "ji"],
+    "hiragana": "じ"
+  },
+  {
+    "romajis": ["zu"],
+    "hiragana": "ず"
+  },
+  {
+    "romajis": ["ze"],
+    "hiragana": "ぜ"
+  },
+  {
+    "romajis": ["zo"],
+    "hiragana": "ぞ"
+  },
+
+  {
+    "romajis": ["da"],
+    "hiragana": "だ"
+  },
+  {
+    "romajis": ["di"],
+    "hiragana": "ぢ"
+  },
+  {
+    "romajis": ["du"],
+    "hiragana": "づ"
+  },
+  {
+    "romajis": ["de"],
+    "hiragana": "で"
+  },
+  {
+    "romajis": ["do"],
+    "hiragana": "ど"
+  },
+
+  {
+    "romajis": ["ba"],
+    "hiragana": "ば"
+  },
+  {
+    "romajis": ["bi"],
+    "hiragana": "び"
+  },
+  {
+    "romajis": ["bu"],
+    "hiragana": "ぶ"
+  },
+  {
+    "romajis": ["be"],
+    "hiragana": "べ"
+  },
+  {
+    "romajis": ["bo"],
+    "hiragana": "ぼ"
+  },
+
+  {
+    "romajis": ["pa"],
+    "hiragana": "ぱ"
+  },
+  {
+    "romajis": ["pi"],
+    "hiragana": "ぴ"
+  },
+  {
+    "romajis": ["pu"],
+    "hiragana": "ぷ"
+  },
+  {
+    "romajis": ["pe"],
+    "hiragana": "ぺ"
+  },
+  {
+    "romajis": ["po"],
+    "hiragana": "ぽ"
+  },
+
+  {
+    "romajis": ["la", "xa"],
+    "hiragana": "ぁ"
+  },
+  {
+    "romajis": ["li", "xi"],
+    "hiragana": "ぃ"
+  },
+  {
+    "romajis": ["lu", "xu"],
+    "hiragana": "ぅ"
+  },
+  {
+    "romajis": ["le", "xe"],
+    "hiragana": "ぇ"
+  },
+  {
+    "romajis": ["lo", "xo"],
+    "hiragana": "ぉ"
+  },
+  {
+    "romajis": ["ltu", "ltsu", "xtu", "xtsu"],
+    "hiragana": "っ"
+  },
+
+  {
+    "romajis": ["kya"],
+    "hiragana": "きゃ"
+  },
+  {
+    "romajis": ["kyu"],
+    "hiragana": "きゅ"
+  },
+  {
+    "romajis": ["kyo"],
+    "hiragana": "きょ"
+  },
+
+  {
+    "romajis": ["sya", "sha"],
+    "hiragana": "しゃ"
+  },
+  {
+    "romajis": ["syu", "shu"],
+    "hiragana": "しゅ"
+  },
+  {
+    "romajis": ["syo", "sho"],
+    "hiragana": "しょ"
+  },
+
+  {
+    "romajis": ["tya", "cha"],
+    "hiragana": "ちゃ"
+  },
+  {
+    "romajis": ["tyu", "chu"],
+    "hiragana": "ちゅ"
+  },
+  {
+    "romajis": ["tyo", "cho"],
+    "hiragana": "ちょ"
+  },
+
+  {
+    "romajis": ["nya"],
+    "hiragana": "にゃ"
+  },
+  {
+    "romajis": ["nyu"],
+    "hiragana": "にゅ"
+  },
+  {
+    "romajis": ["nyo"],
+    "hiragana": "にょ"
+  },
+
+  {
+    "romajis": ["hya"],
+    "hiragana": "ひゃ"
+  },
+  {
+    "romajis": ["hyu"],
+    "hiragana": "ひゅ"
+  },
+  {
+    "romajis": ["hyo"],
+    "hiragana": "ひょ"
+  },
+
+  {
+    "romajis": ["mya"],
+    "hiragana": "みゃ"
+  },
+  {
+    "romajis": ["myu"],
+    "hiragana": "みゅ"
+  },
+  {
+    "romajis": ["myo"],
+    "hiragana": "みょ"
+  },
+
+  {
+    "romajis": ["rya"],
+    "hiragana": "りゃ"
+  },
+  {
+    "romajis": ["ryu"],
+    "hiragana": "りゅ"
+  },
+  {
+    "romajis": ["ryo"],
+    "hiragana": "りょ"
+  },
+
+  {
+    "romajis": ["gya"],
+    "hiragana": "ぎゃ"
+  },
+  {
+    "romajis": ["gyu"],
+    "hiragana": "ぎゅ"
+  },
+  {
+    "romajis": ["gyo"],
+    "hiragana": "ぎょ"
+  },
+
+  {
+    "romajis": ["zya", "ja"],
+    "hiragana": "じゃ"
+  },
+  {
+    "romajis": ["zyu", "ju"],
+    "hiragana": "じゅ"
+  },
+  {
+    "romajis": ["zyo", "jo"],
+    "hiragana": "じょ"
+  },
+
+  {
+    "romajis": ["dya"],
+    "hiragana": "ぢゃ"
+  },
+  {
+    "romajis": ["dyu"],
+    "hiragana": "ぢゅ"
+  },
+  {
+    "romajis": ["dyo"],
+    "hiragana": "ぢょ"
+  },
+
+  {
+    "romajis": ["bya"],
+    "hiragana": "びゃ"
+  },
+  {
+    "romajis": ["byu"],
+    "hiragana": "びゅ"
+  },
+  {
+    "romajis": ["byo"],
+    "hiragana": "びょ"
+  },
+
+  {
+    "romajis": ["pya"],
+    "hiragana": "ぴゃ"
+  },
+  {
+    "romajis": ["pyu"],
+    "hiragana": "ぴゅ"
+  },
+  {
+    "romajis": ["pyo"],
+    "hiragana": "ぴょ"
+  }
+]
