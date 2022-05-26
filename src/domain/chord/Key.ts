@@ -36,7 +36,7 @@ export function convertCharToKey(char: string) {
   }
 }
 
-export function convertStringToKey(string: string) {
+export function convertStringToKeys(string: string) {
   const keys: Key[] = [];
 
   for (const char of string) {
