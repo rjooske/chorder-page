@@ -4,6 +4,6 @@
     "lib": ["DOM", "ESNext"],
     "noEmit": true,
     "strict": true,
-    "target": "ES5"
+    "target": "ES6"
   }
 }
