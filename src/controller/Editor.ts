@@ -50,7 +50,6 @@ function convertKeyboardEventToKey(event: KeyboardEvent) {
     event.ctrlKey ||
     event.metaKey ||
     event.shiftKey ||
-    event.repeat ||
     event.isComposing
   ) {
     return;
