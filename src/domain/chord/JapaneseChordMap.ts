@@ -3,42 +3,34 @@ import { Chord } from "./Chord";
 import { ChordMap } from "./ChordMap";
 import conversions from "./JapaneseChordMap.json";
 
-const mappings = conversions.flatMap(({ romajis, hiragana }) =>
+const mappings = conversions.flatMap(({ romajis, hiragana, canGeminate }) =>
   romajis
     .map((e) => convertStringToKeys(e))
     .filter((e): e is Key[] => !!e)
-    .map((e) => ({ chord: new Chord(e), replacement: hiragana }))
+    .map((e) => new Chord(e))
+    .flatMap((chord) => {
+      if (canGeminate) {
+        return [
+          { chord, hiragana },
+          { chord: chord.with("space"), hiragana: "っ" + hiragana },
+        ];
+      } else {
+        return [{ chord, hiragana }];
+      }
+    })
 );
 
 export class JapaneseChordMap implements ChordMap {
   map(chord: Chord) {
-    const chordWithoutSpace = chord.without("space");
-    const mapping = findMapping(chordWithoutSpace);
+    const mapping = findMapping(chord);
     if (!mapping) {
       return "";
     }
 
-    if (chord.contains("space")) {
-      if (isVowel(chordWithoutSpace)) {
-        return "";
-      } else {
-        return "っ" + mapping.replacement;
-      }
-    }
-
-    return mapping.replacement;
+    return mapping.hiragana;
   }
 }
 
 function findMapping(chord: Chord) {
   return mappings.find((e) => e.chord.equals(chord));
-}
-
-function isVowel(chord: Chord) {
-  if (chord.size() !== 1) {
-    return false;
-  }
-
-  const vowels: Key[] = ["a", "i", "u", "e", "o"];
-  return vowels.some((e) => chord.contains(e));
 }

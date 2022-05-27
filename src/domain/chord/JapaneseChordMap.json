@@ -1,481 +1,594 @@
 [
   {
     "romajis": ["a"],
-    "hiragana": "あ"
+    "hiragana": "あ",
+    "canGeminate": false
   },
   {
     "romajis": ["i"],
-    "hiragana": "い"
+    "hiragana": "い",
+    "canGeminate": false
   },
   {
     "romajis": ["u"],
-    "hiragana": "う"
+    "hiragana": "う",
+    "canGeminate": false
   },
   {
     "romajis": ["e"],
-    "hiragana": "え"
+    "hiragana": "え",
+    "canGeminate": false
   },
   {
     "romajis": ["o"],
-    "hiragana": "お"
+    "hiragana": "お",
+    "canGeminate": false
   },
 
   {
     "romajis": ["ka"],
-    "hiragana": "か"
+    "hiragana": "か",
+    "canGeminate": true
   },
   {
     "romajis": ["ki"],
-    "hiragana": "き"
+    "hiragana": "き",
+    "canGeminate": true
   },
   {
     "romajis": ["ku"],
-    "hiragana": "く"
+    "hiragana": "く",
+    "canGeminate": true
   },
   {
     "romajis": ["ke"],
-    "hiragana": "け"
+    "hiragana": "け",
+    "canGeminate": true
   },
   {
     "romajis": ["ko"],
-    "hiragana": "こ"
+    "hiragana": "こ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["sa"],
-    "hiragana": "さ"
+    "hiragana": "さ",
+    "canGeminate": true
   },
   {
     "romajis": ["si", "shi"],
-    "hiragana": "し"
+    "hiragana": "し",
+    "canGeminate": true
   },
   {
     "romajis": ["su"],
-    "hiragana": "す"
+    "hiragana": "す",
+    "canGeminate": true
   },
   {
     "romajis": ["se"],
-    "hiragana": "せ"
+    "hiragana": "せ",
+    "canGeminate": true
   },
   {
     "romajis": ["so"],
-    "hiragana": "そ"
+    "hiragana": "そ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ta"],
-    "hiragana": "た"
+    "hiragana": "た",
+    "canGeminate": true
   },
   {
     "romajis": ["ti", "chi"],
-    "hiragana": "ち"
+    "hiragana": "ち",
+    "canGeminate": true
   },
   {
     "romajis": ["tu", "tsu"],
-    "hiragana": "つ"
+    "hiragana": "つ",
+    "canGeminate": true
   },
   {
     "romajis": ["te"],
-    "hiragana": "て"
+    "hiragana": "て",
+    "canGeminate": true
   },
   {
     "romajis": ["to"],
-    "hiragana": "と"
+    "hiragana": "と",
+    "canGeminate": true
   },
 
   {
     "romajis": ["na"],
-    "hiragana": "な"
+    "hiragana": "な",
+    "canGeminate": true
   },
   {
     "romajis": ["ni"],
-    "hiragana": "に"
+    "hiragana": "に",
+    "canGeminate": true
   },
   {
     "romajis": ["nu"],
-    "hiragana": "ぬ"
+    "hiragana": "ぬ",
+    "canGeminate": true
   },
   {
     "romajis": ["ne"],
-    "hiragana": "ね"
+    "hiragana": "ね",
+    "canGeminate": true
   },
   {
     "romajis": ["no"],
-    "hiragana": "の"
+    "hiragana": "の",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ha"],
-    "hiragana": "は"
+    "hiragana": "は",
+    "canGeminate": true
   },
   {
     "romajis": ["hi"],
-    "hiragana": "ひ"
+    "hiragana": "ひ",
+    "canGeminate": true
   },
   {
     "romajis": ["hu", "fu"],
-    "hiragana": "ふ"
+    "hiragana": "ふ",
+    "canGeminate": true
   },
   {
     "romajis": ["he"],
-    "hiragana": "へ"
+    "hiragana": "へ",
+    "canGeminate": true
   },
   {
     "romajis": ["ho"],
-    "hiragana": "ほ"
+    "hiragana": "ほ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ma"],
-    "hiragana": "ま"
+    "hiragana": "ま",
+    "canGeminate": true
   },
   {
     "romajis": ["mi"],
-    "hiragana": "み"
+    "hiragana": "み",
+    "canGeminate": true
   },
   {
     "romajis": ["mu"],
-    "hiragana": "む"
+    "hiragana": "む",
+    "canGeminate": true
   },
   {
     "romajis": ["me"],
-    "hiragana": "め"
+    "hiragana": "め",
+    "canGeminate": true
   },
   {
     "romajis": ["mo"],
-    "hiragana": "も"
+    "hiragana": "も",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ya"],
-    "hiragana": "や"
+    "hiragana": "や",
+    "canGeminate": true
   },
   {
     "romajis": ["yu"],
-    "hiragana": "ゆ"
+    "hiragana": "ゆ",
+    "canGeminate": true
   },
   {
     "romajis": ["yo"],
-    "hiragana": "よ"
+    "hiragana": "よ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ra"],
-    "hiragana": "ら"
+    "hiragana": "ら",
+    "canGeminate": true
   },
   {
     "romajis": ["ri"],
-    "hiragana": "り"
+    "hiragana": "り",
+    "canGeminate": true
   },
   {
     "romajis": ["ru"],
-    "hiragana": "る"
+    "hiragana": "る",
+    "canGeminate": true
   },
   {
     "romajis": ["re"],
-    "hiragana": "れ"
+    "hiragana": "れ",
+    "canGeminate": true
   },
   {
     "romajis": ["ro"],
-    "hiragana": "ろ"
+    "hiragana": "ろ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["wa"],
-    "hiragana": "わ"
+    "hiragana": "わ",
+    "canGeminate": true
   },
   {
     "romajis": ["wo"],
-    "hiragana": "を"
+    "hiragana": "を",
+    "canGeminate": true
   },
   {
     "romajis": ["n"],
-    "hiragana": "ん"
+    "hiragana": "ん",
+    "canGeminate": false
   },
 
   {
     "romajis": ["ga"],
-    "hiragana": "が"
+    "hiragana": "が",
+    "canGeminate": true
   },
   {
     "romajis": ["gi"],
-    "hiragana": "ぎ"
+    "hiragana": "ぎ",
+    "canGeminate": true
   },
   {
     "romajis": ["gu"],
-    "hiragana": "ぐ"
+    "hiragana": "ぐ",
+    "canGeminate": true
   },
   {
     "romajis": ["ge"],
-    "hiragana": "げ"
+    "hiragana": "げ",
+    "canGeminate": true
   },
   {
     "romajis": ["go"],
-    "hiragana": "ご"
+    "hiragana": "ご",
+    "canGeminate": true
   },
 
   {
     "romajis": ["za"],
-    "hiragana": "ざ"
+    "hiragana": "ざ",
+    "canGeminate": true
   },
   {
     "romajis": ["zi", "ji"],
-    "hiragana": "じ"
+    "hiragana": "じ",
+    "canGeminate": true
   },
   {
     "romajis": ["zu"],
-    "hiragana": "ず"
+    "hiragana": "ず",
+    "canGeminate": true
   },
   {
     "romajis": ["ze"],
-    "hiragana": "ぜ"
+    "hiragana": "ぜ",
+    "canGeminate": true
   },
   {
     "romajis": ["zo"],
-    "hiragana": "ぞ"
+    "hiragana": "ぞ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["da"],
-    "hiragana": "だ"
+    "hiragana": "だ",
+    "canGeminate": true
   },
   {
     "romajis": ["di"],
-    "hiragana": "ぢ"
+    "hiragana": "ぢ",
+    "canGeminate": true
   },
   {
     "romajis": ["du"],
-    "hiragana": "づ"
+    "hiragana": "づ",
+    "canGeminate": true
   },
   {
     "romajis": ["de"],
-    "hiragana": "で"
+    "hiragana": "で",
+    "canGeminate": true
   },
   {
     "romajis": ["do"],
-    "hiragana": "ど"
+    "hiragana": "ど",
+    "canGeminate": true
   },
 
   {
     "romajis": ["ba"],
-    "hiragana": "ば"
+    "hiragana": "ば",
+    "canGeminate": true
   },
   {
     "romajis": ["bi"],
-    "hiragana": "び"
+    "hiragana": "び",
+    "canGeminate": true
   },
   {
     "romajis": ["bu"],
-    "hiragana": "ぶ"
+    "hiragana": "ぶ",
+    "canGeminate": true
   },
   {
     "romajis": ["be"],
-    "hiragana": "べ"
+    "hiragana": "べ",
+    "canGeminate": true
   },
   {
     "romajis": ["bo"],
-    "hiragana": "ぼ"
+    "hiragana": "ぼ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["pa"],
-    "hiragana": "ぱ"
+    "hiragana": "ぱ",
+    "canGeminate": true
   },
   {
     "romajis": ["pi"],
-    "hiragana": "ぴ"
+    "hiragana": "ぴ",
+    "canGeminate": true
   },
   {
     "romajis": ["pu"],
-    "hiragana": "ぷ"
+    "hiragana": "ぷ",
+    "canGeminate": true
   },
   {
     "romajis": ["pe"],
-    "hiragana": "ぺ"
+    "hiragana": "ぺ",
+    "canGeminate": true
   },
   {
     "romajis": ["po"],
-    "hiragana": "ぽ"
+    "hiragana": "ぽ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["la", "xa"],
-    "hiragana": "ぁ"
+    "hiragana": "ぁ",
+    "canGeminate": true
   },
   {
     "romajis": ["li", "xi"],
-    "hiragana": "ぃ"
+    "hiragana": "ぃ",
+    "canGeminate": true
   },
   {
     "romajis": ["lu", "xu"],
-    "hiragana": "ぅ"
+    "hiragana": "ぅ",
+    "canGeminate": true
   },
   {
     "romajis": ["le", "xe"],
-    "hiragana": "ぇ"
+    "hiragana": "ぇ",
+    "canGeminate": true
   },
   {
     "romajis": ["lo", "xo"],
-    "hiragana": "ぉ"
+    "hiragana": "ぉ",
+    "canGeminate": true
   },
   {
     "romajis": ["ltu", "ltsu", "xtu", "xtsu"],
-    "hiragana": "っ"
+    "hiragana": "っ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["kya"],
-    "hiragana": "きゃ"
+    "hiragana": "きゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["kyu"],
-    "hiragana": "きゅ"
+    "hiragana": "きゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["kyo"],
-    "hiragana": "きょ"
+    "hiragana": "きょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["sya", "sha"],
-    "hiragana": "しゃ"
+    "hiragana": "しゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["syu", "shu"],
-    "hiragana": "しゅ"
+    "hiragana": "しゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["syo", "sho"],
-    "hiragana": "しょ"
+    "hiragana": "しょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["tya", "cha"],
-    "hiragana": "ちゃ"
+    "hiragana": "ちゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["tyu", "chu"],
-    "hiragana": "ちゅ"
+    "hiragana": "ちゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["tyo", "cho"],
-    "hiragana": "ちょ"
+    "hiragana": "ちょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["nya"],
-    "hiragana": "にゃ"
+    "hiragana": "にゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["nyu"],
-    "hiragana": "にゅ"
+    "hiragana": "にゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["nyo"],
-    "hiragana": "にょ"
+    "hiragana": "にょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["hya"],
-    "hiragana": "ひゃ"
+    "hiragana": "ひゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["hyu"],
-    "hiragana": "ひゅ"
+    "hiragana": "ひゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["hyo"],
-    "hiragana": "ひょ"
+    "hiragana": "ひょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["mya"],
-    "hiragana": "みゃ"
+    "hiragana": "みゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["myu"],
-    "hiragana": "みゅ"
+    "hiragana": "みゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["myo"],
-    "hiragana": "みょ"
+    "hiragana": "みょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["rya"],
-    "hiragana": "りゃ"
+    "hiragana": "りゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["ryu"],
-    "hiragana": "りゅ"
+    "hiragana": "りゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["ryo"],
-    "hiragana": "りょ"
+    "hiragana": "りょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["gya"],
-    "hiragana": "ぎゃ"
+    "hiragana": "ぎゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["gyu"],
-    "hiragana": "ぎゅ"
+    "hiragana": "ぎゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["gyo"],
-    "hiragana": "ぎょ"
+    "hiragana": "ぎょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["zya", "ja"],
-    "hiragana": "じゃ"
+    "hiragana": "じゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["zyu", "ju"],
-    "hiragana": "じゅ"
+    "hiragana": "じゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["zyo", "jo"],
-    "hiragana": "じょ"
+    "hiragana": "じょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["dya"],
-    "hiragana": "ぢゃ"
+    "hiragana": "ぢゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["dyu"],
-    "hiragana": "ぢゅ"
+    "hiragana": "ぢゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["dyo"],
-    "hiragana": "ぢょ"
+    "hiragana": "ぢょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["bya"],
-    "hiragana": "びゃ"
+    "hiragana": "びゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["byu"],
-    "hiragana": "びゅ"
+    "hiragana": "びゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["byo"],
-    "hiragana": "びょ"
+    "hiragana": "びょ",
+    "canGeminate": true
   },
 
   {
     "romajis": ["pya"],
-    "hiragana": "ぴゃ"
+    "hiragana": "ぴゃ",
+    "canGeminate": true
   },
   {
     "romajis": ["pyu"],
-    "hiragana": "ぴゅ"
+    "hiragana": "ぴゅ",
+    "canGeminate": true
   },
   {
     "romajis": ["pyo"],
-    "hiragana": "ぴょ"
+    "hiragana": "ぴょ",
+    "canGeminate": true
   }
 ]
