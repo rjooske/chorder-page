@@ -1,4 +1,4 @@
-import { Key } from "./Key";
+import { Key } from "../key/Key";
 
 export class Chord {
   private readonly keys: Key[];

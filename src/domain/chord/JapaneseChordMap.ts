@@ -1,7 +1,7 @@
+import { convertStringToKeys, Key } from "../key/Key";
 import { Chord } from "./Chord";
 import { ChordMap } from "./ChordMap";
 import conversions from "./JapaneseChordMap.json";
-import { convertStringToKeys, Key } from "./Key";
 
 const mappings = conversions.flatMap(({ romajis, hiragana }) =>
   romajis

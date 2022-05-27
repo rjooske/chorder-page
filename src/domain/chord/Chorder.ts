@@ -1,6 +1,6 @@
+import { Key } from "../key/Key";
 import { Chord } from "./Chord";
 import { ChordMap } from "./ChordMap";
-import { Key } from "./Key";
 
 type KeyState = "pressed" | "released";
 

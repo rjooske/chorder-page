@@ -1,5 +1,5 @@
 import { Chorder } from "../domain/chord/Chorder";
-import { convertCharToKey } from "../domain/chord/Key";
+import { convertCharToKey } from "../domain/key/Key";
 
 export class Editor {
   constructor(
