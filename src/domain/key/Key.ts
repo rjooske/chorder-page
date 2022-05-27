@@ -1,38 +1,43 @@
 export type Key =
-  | "A"
-  | "B"
-  | "C"
-  | "D"
-  | "E"
-  | "F"
-  | "G"
-  | "H"
-  | "I"
-  | "J"
-  | "K"
-  | "L"
-  | "M"
-  | "N"
-  | "O"
-  | "P"
-  | "Q"
-  | "R"
-  | "S"
-  | "T"
-  | "U"
-  | "V"
-  | "W"
-  | "X"
-  | "Y"
-  | "Z";
+  | "space"
+  | "a"
+  | "b"
+  | "c"
+  | "d"
+  | "e"
+  | "f"
+  | "g"
+  | "h"
+  | "i"
+  | "j"
+  | "k"
+  | "l"
+  | "m"
+  | "n"
+  | "o"
+  | "p"
+  | "q"
+  | "r"
+  | "s"
+  | "t"
+  | "u"
+  | "v"
+  | "w"
+  | "x"
+  | "y"
+  | "z";
 
-export function convertCharToKey(char: string) {
+export function convertCharToKey(char: string): Key | undefined {
   if (char.length !== 1) {
     return;
   }
 
+  if (char === " ") {
+    return "space";
+  }
+
   if (char.match(/[A-Za-z]/)) {
-    return char.toUpperCase() as Key;
+    return char.toLowerCase() as Key;
   }
 }
 
