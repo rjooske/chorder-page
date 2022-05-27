@@ -14,6 +14,18 @@ export class Chord {
 
     return this.keys.every((key) => chord.keys.includes(key));
   }
+
+  contains(key: Key) {
+    return this.keys.includes(key);
+  }
+
+  without(key: Key) {
+    return new Chord([...this.keys].filter((e) => e !== key));
+  }
+
+  size() {
+    return this.keys.length;
+  }
 }
 
 function dedupe(keys: Key[]) {

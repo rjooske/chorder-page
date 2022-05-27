@@ -12,11 +12,33 @@ const mappings = conversions.flatMap(({ romajis, hiragana }) =>
 
 export class JapaneseChordMap implements ChordMap {
   map(chord: Chord) {
-    const mapping = mappings.find((e) => e.chord.equals(chord));
+    const chordWithoutSpace = chord.without("space");
+    const mapping = findMapping(chordWithoutSpace);
     if (!mapping) {
       return "";
     }
 
+    if (chord.contains("space")) {
+      if (isVowel(chordWithoutSpace)) {
+        return "";
+      } else {
+        return "っ" + mapping.replacement;
+      }
+    }
+
     return mapping.replacement;
   }
+}
+
+function findMapping(chord: Chord) {
+  return mappings.find((e) => e.chord.equals(chord));
+}
+
+function isVowel(chord: Chord) {
+  if (chord.size() !== 1) {
+    return false;
+  }
+
+  const vowels: Key[] = ["a", "i", "u", "e", "o"];
+  return vowels.some((e) => chord.contains(e));
 }
