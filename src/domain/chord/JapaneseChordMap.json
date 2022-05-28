@@ -1,5 +1,11 @@
 [
   {
+    "romajis": [" "],
+    "hiragana": " ",
+    "canGeminate": false
+  },
+
+  {
     "romajis": ["-"],
     "hiragana": "ー",
     "canGeminate": false
