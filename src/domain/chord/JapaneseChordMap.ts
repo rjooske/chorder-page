@@ -20,8 +20,15 @@ const mappings = conversions.flatMap(({ romajis, hiragana, canGeminate }) =>
     })
 );
 
+const space = new Chord(["space"]);
+
 export class JapaneseChordMap implements ChordMap {
   map(chord: Chord) {
+    // space is doing double duty
+    if (chord.equals(space)) {
+      return " ";
+    }
+
     const mapping = findMapping(chord);
     if (!mapping) {
       return "";
