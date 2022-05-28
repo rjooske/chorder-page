@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    all: unset;
+}
+
+title {
+    display: none;
+}
+
+#editor {
+    resize: none;
+    position: fixed;
+    inset: 32px;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+#editor::placeholder {
+    font-style: italic;
+}
