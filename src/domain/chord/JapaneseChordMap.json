@@ -862,23 +862,45 @@
     "canGeminate": true
   },
   {
-    "romajis": ["kwi", "qi"],
+    "romajis": ["kwi", "qi", "qwi", "qyi"],
     "hiragana": "くぃ",
     "canGeminate": true
   },
   {
-    "romajis": ["kwu", "qu"],
+    "romajis": ["kwu", "qu", "qwu"],
     "hiragana": "くぅ",
     "canGeminate": true
   },
   {
-    "romajis": ["kwe", "qe"],
+    "romajis": ["kwe", "qe", "qwe", "qye"],
     "hiragana": "くぇ",
     "canGeminate": true
   },
   {
-    "romajis": ["kwo", "qo"],
+    "romajis": ["kwo", "qo", "qwo"],
     "hiragana": "くぉ",
+    "canGeminate": true
+  },
+
+  {
+    "romajis": ["qwa"],
+    "hiragana": "くゎ",
+    "canGeminate": true
+  },
+
+  {
+    "romajis": ["qya"],
+    "hiragana": "くゃ",
+    "canGeminate": true
+  },
+  {
+    "romajis": ["qyu"],
+    "hiragana": "くゅ",
+    "canGeminate": true
+  },
+  {
+    "romajis": ["qyo"],
+    "hiragana": "くょ",
     "canGeminate": true
   },
 
