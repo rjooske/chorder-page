@@ -931,7 +931,7 @@
   },
 
   {
-    "romajis": ["zya", "ja", "jya"],
+    "romajis": ["zya", "jya", "ja"],
     "hiragana": "じゃ",
     "canGeminate": true
   },
@@ -941,17 +941,17 @@
     "canGeminate": true
   },
   {
-    "romajis": ["zyu", "ju", "jyu"],
+    "romajis": ["zyu", "jyu", "ju"],
     "hiragana": "じゅ",
     "canGeminate": true
   },
   {
-    "romajis": ["zye", "jye"],
+    "romajis": ["zye", "jye", "je"],
     "hiragana": "じぇ",
     "canGeminate": true
   },
   {
-    "romajis": ["zyo", "jo", "jyo"],
+    "romajis": ["zyo", "jyo", "jo"],
     "hiragana": "じょ",
     "canGeminate": true
   },
