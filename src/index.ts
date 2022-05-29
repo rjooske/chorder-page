@@ -1,6 +1,6 @@
 import { Editor } from "./controller/Editor";
 import { Chorder } from "./domain/chord/Chorder";
-import { JapaneseChordMap } from "./domain/chord/JapaneseChordMap";
+import { HiraganaChordMap } from "./domain/chord/HiraganaChordMap";
 
 function main() {
   const textarea = document.querySelector("#editor");
@@ -8,7 +8,7 @@ function main() {
     return;
   }
 
-  new Editor(textarea, new Chorder(new JapaneseChordMap()));
+  new Editor(textarea, new Chorder(new HiraganaChordMap()));
 }
 
 main();

@@ -1,7 +1,7 @@
 import { convertStringToKeys, Key } from "../key/Key";
 import { Chord } from "./Chord";
 import { ChordMap } from "./ChordMap";
-import conversions from "./JapaneseChordMap.json";
+import conversions from "./HiraganaChordMap.json";
 
 const mappings = conversions.flatMap(({ romajis, hiragana, canGeminate }) =>
   romajis
@@ -20,7 +20,7 @@ const mappings = conversions.flatMap(({ romajis, hiragana, canGeminate }) =>
     })
 );
 
-export class JapaneseChordMap implements ChordMap {
+export class HiraganaChordMap implements ChordMap {
   map(chord: Chord) {
     const mapping = findMapping(chord);
     if (!mapping) {
