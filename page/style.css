@@ -1,36 +1,47 @@
-*, *::before, *::after {
-    all: unset;
+*,
+*::before,
+*::after {
+  all: unset;
 }
 
 title {
-    display: none;
+  display: none;
+}
+
+textarea {
+  /* line breaks in <textarea> on FireFox and Safari are broken without this */
+  white-space: pre-wrap;
 }
 
 #editor {
-    resize: none;
-    position: fixed;
-    inset: 32px;
-    font-family: sans-serif;
-    font-size: 32px;
+  resize: none;
+  position: fixed;
+  left: 32px;
+  top: 32px;
+  /* <textarea> needs width and height explicitly, inset doesn't work */
+  width: calc(100vw - 2 * 32px);
+  height: calc(100vh - 2 * 32px);
+  font-family: sans-serif;
+  font-size: 32px;
 }
 
 #editor::placeholder {
-    font-style: italic;
+  font-style: italic;
 }
 
 #mode {
-    cursor: pointer;
-    position: fixed;
-    right: 16px;
-    bottom: 16px;
-    width: 2em;
-    height: 2em;
-    border-radius: 0.5em;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
-    display: grid;
-    place-content: center;
-    font-family: sans-serif;
-    font-size: 24px;
-    color: white;
-    background-color: black;
+  cursor: pointer;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 2em;
+  height: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+  background-color: black;
 }
