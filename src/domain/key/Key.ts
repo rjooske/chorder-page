@@ -1,6 +1,8 @@
 export type Key =
   | "space"
+  | "comma"
   | "hyphen"
+  | "period"
   | "a"
   | "b"
   | "c"
@@ -33,12 +35,15 @@ export function convertCharToKey(char: string): Key | undefined {
     return;
   }
 
-  if (char === " ") {
-    return "space";
-  }
-
-  if (char === "-") {
-    return "hyphen";
+  switch (char) {
+    case " ":
+      return "space";
+    case ",":
+      return "comma";
+    case "-":
+      return "hyphen";
+    case ".":
+      return "period";
   }
 
   if (char.match(/[A-Za-z]/)) {

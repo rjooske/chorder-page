@@ -10,6 +10,16 @@
     "hiragana": "ー",
     "canGeminate": false
   },
+  {
+    "romajis": [","],
+    "hiragana": "、",
+    "canGeminate": false
+  },
+  {
+    "romajis": ["."],
+    "hiragana": "。",
+    "canGeminate": false
+  },
 
   {
     "romajis": ["a"],
