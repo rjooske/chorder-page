@@ -407,7 +407,7 @@
     "canGeminate": true
   },
   {
-    "romajis": ["le", "xe"],
+    "romajis": ["le", "lye", "xe", "xye"],
     "hiragana": "ぇ",
     "canGeminate": true
   },
@@ -434,6 +434,11 @@
   {
     "romajis": ["lyo", "xyo"],
     "hiragana": "ょ",
+    "canGeminate": true
+  },
+  {
+    "romajis": ["lwa", "xwa"],
+    "hiragana": "ゎ",
     "canGeminate": true
   },
 
@@ -596,27 +601,27 @@
   },
 
   {
-    "romajis": ["tya", "cha"],
+    "romajis": ["tya", "cha", "cya"],
     "hiragana": "ちゃ",
     "canGeminate": true
   },
   {
-    "romajis": ["tyi"],
+    "romajis": ["tyi", "cyi"],
     "hiragana": "ちぃ",
     "canGeminate": true
   },
   {
-    "romajis": ["tyu", "chu"],
+    "romajis": ["tyu", "chu", "cyu"],
     "hiragana": "ちゅ",
     "canGeminate": true
   },
   {
-    "romajis": ["tye", "che"],
+    "romajis": ["tye", "che", "cye"],
     "hiragana": "ちぇ",
     "canGeminate": true
   },
   {
-    "romajis": ["tyo", "cho"],
+    "romajis": ["tyo", "cho", "cyo"],
     "hiragana": "ちょ",
     "canGeminate": true
   },
