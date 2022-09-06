@@ -13,10 +13,10 @@ function main() {
     !(
       textarea instanceof HTMLTextAreaElement &&
       modeButton instanceof HTMLButtonElement &&
-      exportButton instanceof HTMLAnchorElement
+      exportButton instanceof HTMLButtonElement
     )
   ) {
-    return;
+    throw new Error("Mismatch between expected and actual element tag names");
   }
 
   const keyLogger = new KeyLogger();

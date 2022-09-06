@@ -2,7 +2,7 @@ import { KeyLogger } from "../domain/key/KeyLogger";
 
 export class LogExporter {
   constructor(
-    private readonly exportButton: HTMLAnchorElement,
+    exportButton: HTMLButtonElement,
     private readonly keyLogger: KeyLogger,
     private readonly appStartTime: Date
   ) {
@@ -13,21 +13,29 @@ export class LogExporter {
   }
 
   private handleExportButtonClick() {
-    this.exportButton.href =
-      "data:text/csv;charset=UTF-8," +
-      encodeURIComponent(this.stringifyLogsAsCsv());
+    downloadStringAsFile("text/csv", "log.csv", this.stringifyLogsAsCsv());
   }
 
   private stringifyLogsAsCsv() {
-    let str = "Milliseconds since page loaded,Keycode,Motion\n";
-    for (const log of this.keyLogger.logs) {
-      str += log.when.getTime() - this.appStartTime.getTime();
-      str += ",";
-      str += log.code;
-      str += ",";
-      str += log.motion;
-      str += "\n";
+    const logs = this.keyLogger.logs;
+    const rows = new Array<string>(logs.length + 1);
+    rows[0] = "Milliseconds since page loaded,Keycode,Motion";
+    for (let i = 0; i < logs.length; i++) {
+      const log = logs[i];
+      const time = log.when.getTime() - this.appStartTime.getTime();
+      rows[i + 1] = `${time},${log.code},${log.motion}`;
     }
-    return str;
+    return rows.join("\n");
   }
+}
+
+function downloadStringAsFile(
+  mimeType: string,
+  filename: string,
+  content: string
+) {
+  const a = document.createElement("a");
+  a.href = `data:${mimeType};charset=UTF-8,${encodeURIComponent(content)}`;
+  a.download = filename;
+  a.click();
 }

@@ -4,7 +4,7 @@ textarea {
   white-space: pre-wrap;
 }
 
-.button {
+button {
   all: unset;
   cursor: pointer;
   width: 2em;
@@ -42,9 +42,4 @@ textarea {
   display: flex;
   flex-direction: row;
   gap: 8px;
-}
-
-#export > svg {
-  fill: currentColor;
-  width: 26px;
 }
