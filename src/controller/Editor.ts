@@ -1,5 +1,6 @@
 import { Chorder } from "../domain/chord/Chorder";
 import { convertCharToKey } from "../domain/key/Key";
+import { KeyLogger } from "../domain/key/KeyLogger";
 
 type Mode = "hiragana" | "katakana";
 
@@ -10,7 +11,8 @@ export class Editor {
     private readonly textarea: HTMLTextAreaElement,
     private readonly button: HTMLButtonElement,
     private readonly hiraganaChorder: Chorder,
-    private readonly katakanaChorder: Chorder
+    private readonly katakanaChorder: Chorder,
+    private readonly keyLogger: KeyLogger
   ) {
     textarea.addEventListener("keydown", this.handleKeyDown.bind(this));
     textarea.addEventListener("keyup", this.handleKeyUp.bind(this));
@@ -28,6 +30,16 @@ export class Editor {
   }
 
   private handleKeyDown(event: KeyboardEvent) {
+    if (event.repeat) {
+      return;
+    }
+
+    this.keyLogger.log({
+      when: new Date(),
+      code: event.code,
+      motion: "down",
+    });
+
     const key = convertKeyboardEventToKey(event);
     if (!key) {
       return;
@@ -40,6 +52,16 @@ export class Editor {
   }
 
   private handleKeyUp(event: KeyboardEvent) {
+    if (event.repeat) {
+      return;
+    }
+
+    this.keyLogger.log({
+      when: new Date(),
+      code: event.code,
+      motion: "up",
+    });
+
     const key = convertKeyboardEventToKey(event);
     if (!key) {
       return;
